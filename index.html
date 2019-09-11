@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=	, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <header>Survey Form</header>
+    <form method="post">
+        <h4>Let us know how we can improve freeCodeCamp</h4>
+        <div class="inputs">
+            <div class="left-part">* Name:</div> 
+            <input class="right-part" type="text" name="name">
+        </div>
+        <div class="inputs">
+            <div class="left-part">* Email:</div>
+            <input class="right-part" type="email" name="email">
+        </div>
+        <div class="inputs">
+            <div class="left-part">* Age:</div>
+            <input class="right-part" type="number" name="age">
+        </div>
+        <div class="inputs">
+            <div class="left-part">Which option best describes your current role?</div>
+            <select class="right-part" name="role">
+                <option value="student">Student</option>
+                <option value="professional">Professional</option>
+                <option value="noob">Noob</option>
+                <option value="undead">Undead</option>
+            </select>
+        </div>
+        <div class="inputs">
+            <div class="left-part">* How likely is that you would recommend freeCodeCamp to a friend?</div>
+            <div class="right-part">
+                <input type="radio" name="recommendation" value="Definitely"> Definitely<br>
+                <input type="radio" name="recommendation" value="Maybe" checked> Maybe<br>
+                <input type="radio" name="recommendation" value="Not_sure"> Not sure<br>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
